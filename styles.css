@@ -33,28 +33,33 @@
 }
 
 .content1{
-    margin-left:30vw ;
+    position: relative;
+    left:30vw ;
     background-color: rgb(255, 231, 186);
     height: 30vh;
 }
 
-.content2{
-    margin-left:30vw ;
-    background-color:white;
-    height: 40vh;
+.signUpContent1{
+    position: relative;
+    font-size: 2vw;
+    top: 22vh;
+    left: 2vw;
 }
 
 
 
+
 .content3{
-    margin-left:30vw ;
+    position: relative;
+    left:30vw ;
     background-color: rgb(156, 193, 156);
     height: 30vh;
 }
 
 .createAccount{
-    margin-left: 1vw;
-    margin-top: 2vh;
+    position: relative;
+    left: 2vw;
+    top: 2vh;
     background-image: linear-gradient(to top, green , orange 50%);
     height: 5vh;
     width: 10vw;
@@ -64,8 +69,9 @@
 }
 
 .alreadyLoginText{
-    margin-left:1vw;
-    margin-top: 1vh;
+    position: relative;
+    left:2vw;
+    top: 2vh;
     font-size: .8vw;
 }
 
@@ -77,3 +83,44 @@
 a{
     text-decoration: none;
 }
+
+
+.content2{
+    position: relative;
+    left:30vw ;
+    background-color:white;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    gap:5vw;
+    overflow: hidden;
+}
+
+.container1,.container2{
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    display: flex;  
+    flex-direction: column;
+    gap:4vh
+}
+
+
+
+label{
+    font-size: 0.7vw;
+}
+
+input{
+    height: 4vh;
+    width: 15vw;
+}
+
+
+.firstNameContainer,.emailContainer,.lastNameContainer,.phoneNumberContainer,
+.passwordContainer,.confirmPasswordContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
