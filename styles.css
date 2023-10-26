@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    position: absolute;
+}
+    
+
+#imageSignUp{
+    width:30vw;
+    height:100vh;
+    position: absolute;
+}
+
+
+.logo{
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top:40vh; 
+    justify-content: center;
+}
+
+.g20-logo{
+    align-self: center;
+    width: 15vw;
+    height: 20vh;
+}
+
+.content1{
+    margin-left:30vw ;
+    background-color: rgb(255, 231, 186);
+    height: 30vh;
+}
+
+.content2{
+    margin-left:30vw ;
+    background-color:white;
+    height: 40vh;
+}
+
+
+
+.content3{
+    margin-left:30vw ;
+    background-color: rgb(156, 193, 156);
+    height: 30vh;
+}
+
+.createAccount{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    background-image: linear-gradient(to top, green , orange 50%);
+    height: 5vh;
+    width: 10vw;
+    border-radius: 10px;
+    color: white;
+    font-size: 1vw;
+}
+
+.alreadyLoginText{
+    margin-left:1vw;
+    margin-top: 1vh;
+    font-size: .8vw;
+}
+
+.logIn{
+    color: white;
+    font-size: 1vw;
+}
+
+a{
+    text-decoration: none;
+}
