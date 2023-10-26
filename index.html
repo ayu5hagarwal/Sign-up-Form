@@ -7,54 +7,58 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="image">
-        <img id="imageSignUp" src="signUpForm.jpg" alt="image">
-        <div class="logo">
-            <img class="g20-logo" src="g20-logo.png" alt="g20-logo">
-        </div>
+    <form action="" method="post">
+        <div class="allContent">
+            <div class="image">
+                <img id="imageSignUp" src="signUpForm.jpg" alt="image">
+                <div class="logo">
+                    <img class="g20-logo" src="g20-logo.png" alt="g20-logo">
+                </div>
         
-    </div>
-    <div class="content">
-        <div class="content1">
-            <div class="signUpContent1">Sign up to get free tour to Ancient India</div>
-        </div>
-        <div class="content2">
-            <div class="container1">
-                <div class="firstNameContainer">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" name="firstName" id="firstName">
-                </div>
-                <div class="emailContainer">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="passwordContainer">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
-                </div>
-            </div> 
-                
-                <div class="container2">
-                    <div class="lastNameContainer">
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" name="lastName" id="lastName">
-                    </div>
-                    <div class="phoneNumberContainer">
-                        <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="tel" name="phoneNumber" id="phoneNumber">
-                    </div>
-                    <div class="confirmPasswordContainer">
-                        <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword">
-                    </div>
-                </div>
-        </div>
-        <div class="content3">
-            <div class="createAccountButton">
-                <button type="submit" class="createAccount">Create Account</button>
             </div>
-            <div class="alreadyLoginText">Already have an account? <a href="" class="logIn">Log in</a></div>
-        </div>
-    </div>
+            <div class="content">
+                <div class="content1">
+                    <div class="signUpContent1">Sign up to get free tour to Ancient India</div>
+                </div>
+                <div class="content2">
+                    <div class="container1">
+                        <div class="firstNameContainer">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" required>
+                        </div>
+                        <div class="emailContainer">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="passwordContainer">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                    </div>
+        
+                        <div class="container2">
+                            <div class="lastNameContainer">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" name="lastName" id="lastName" required>
+                            </div>
+                            <div class="phoneNumberContainer">
+                                <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" required>
+                            </div>
+                            <div class="confirmPasswordContainer">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                            </div>
+                        </div>
+                </div>
+                <div class="content3">
+                    <div class="createAccountButton">
+                        <button type="submit" class="createAccount">Create Account</button>
+                    </div>
+                    <div class="alreadyLoginText">Already have an account? <a href="" class="logIn">Log in</a></div>
+                </div>
+            </div>
+        </div`>
+    </form>
 </body>
 </html>

@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 .image{
-    position: absolute;
+    position: absolute
 }
     
 
@@ -12,6 +13,7 @@
     width:30vw;
     height:100vh;
     position: absolute;
+   
 }
 
 
@@ -37,6 +39,8 @@
     left:30vw ;
     background-color: rgb(255, 231, 186);
     height: 30vh;
+    width: 70vw;
+    overflow: hidden;
 }
 
 .signUpContent1{
@@ -54,6 +58,8 @@
     left:30vw ;
     background-color: rgb(156, 193, 156);
     height: 30vh;
+    width: 70vw;
+    overflow: hidden;
 }
 
 .createAccount{
@@ -90,6 +96,7 @@ a{
     left:30vw ;
     background-color:white;
     height: 40vh;
+    width: 70vw;
     display: flex;
     flex-direction: row;
     gap:5vw;
@@ -114,6 +121,8 @@ label{
 input{
     height: 4vh;
     width: 15vw;
+    border-radius: 10px;
+    border-color:#E5E7EB;
 }
 
 
@@ -122,5 +131,13 @@ input{
     display: flex;
     flex-direction: column;
 }
+
+input:focus{
+    border:blue;
+    box-shadow: bisque;
+}
+
+
+
 
 
