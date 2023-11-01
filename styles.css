@@ -132,11 +132,19 @@ input{
     flex-direction: column;
 }
 
-input:focus{
-    border:blue;
-    box-shadow: bisque;
+input:invalid + span[id="password"]::before{
+    content: "*password do not match";   
+    color: red;
+    font-size: 0.7vw;
 }
 
+input:invalid{
+    border:2px solid red;
+}
+
+input:valid{
+    border:2px solid green;
+}
 
 
 
